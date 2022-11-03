@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khula', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    background-color: rgb(255, 65, 65);
+    color: white;
+}
+nav .nav-brand {
+    display: flex;
+    align-items: center;
+
+}
+nav .nav-brand img {
+    width: 8%;
+    margin-right: 5px;
+    margin-left: 50px;
+
+}
+nav .nav  button {
+    width: 100px;
+    padding: 5px;
+    margin-left: -145px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: slateblue;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: all     .4s;
+}
+
+nav .nav button:hover {
+    transform: scale(0.95);
+}
+.al{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: black;
+    transition: all 1s;
+}
+.ali{
+    transition: all 1s;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    color: black;
+}
+
+.img {
+    float: right;
+}
+body{
+    background-color: orange;
+}

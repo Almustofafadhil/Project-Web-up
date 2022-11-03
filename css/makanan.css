@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khula', sans-serif;
+}
+body{
+    background-image: url(https://png.pngtree.com/png-clipart/20210720/ourmid/pngtree-snack-party-cute-icon-for-free-download-png-image_3616193.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(255, 65, 65, 0.788);
+    color: white;
+    border-radius: 3px;
+}
+
+nav .nav-brand {
+    display: flex;
+    align-items: center;
+}
+nav .nav {
+    margin-left: 300px;
+}
+nav .nav-brand img {
+    width: 8%;
+    margin-right: 5px;
+}
+nav .nav  button {
+    width: 100px;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: slateblue;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+nav .nav button:hover {
+    transform: scale(0.95);
+}
+
+.mus{
+    margin-left: 750px;
+}
+tr {
+    text-align: center;
+}
+.lat button {
+    background-color: rgb(155, 250, 46);
+    color: black;
+    width: 50px;
+    padding: 2spx;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.lat button:hover {
+    opacity: 0.3s;
+    transform: scale(0.95);
+}
+table{
+    margin-top: 50px;
+    height: 600px;
+    width: 50%;
+}
+table th {
+    border-radius: 10px;
+    color: white;
+    width: 70px;
+    padding: 2px;
+    background-color: #84cb33fe;
+}
+table td {
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.742);
+}
+
+table img {
+    width: 40%;
+    height: 100px;
+    border-radius: 100px;
+}
+.counter input{
+    width: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+.counter button{
+    width: 20px;
+    border-radius: 5px;
+    background-color: cyan;
+}

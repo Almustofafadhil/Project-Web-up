@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login up</title>
+    <link rel="stylesheet" href="css/formlogin.css">
+</head>
+<body>
+    <nav>
+            <div class="nav-brand">
+                <img src="img/logo.png" alt="gambar" title="Yadika">
+                <h1>Unit Produksi</h1>
+            </div>
+
+            <div class="nav">
+                <a href="" class="nav-link">About Us</a>
+                <a href="index.html"><button>Kembali</button></a>
+            </div>
+    </nav>
+    <center>
+
+        <div class="container">
+            <h1 class="mad">From Login Unit Produksi</h1><br><br><br><br>
+                    <form id="web" onsubmit="return false">
+                    <label for="username">USERNAME</label><br>
+                    <input type="text" value placeholder= "username" id="username" class="e"><br><br>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" value placeholder="password" id="password" class="e"><br><br>
+                    <input type="submit" value="Login" onclick="Login()" class="h">
+                </form>
+                <p id="tampilLogin"></p>
+                </div>
+    </center>
+ <script>
+                    function Login() {
+                        let username = document.getElementById("web").username.value;
+                        let password = document.getElementById("web").password.value;
+                        let result = document.getElementById("tampilLogin")
+                        if (username == "user1" && password == "123") {
+                            result.innerHTML= `Login berhasil`;
+                            window.open("pilihan2.html", "_self")
+                        } else {
+                            result.innerHTML= `login gagal`;
+                        }
+                    }
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuman</title>
+    <link rel="stylesheet" href="css/makanan.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <img src="img/logo.png">
+            <h1>Unit Produksi</h1>
+        </div>
+        <div class="nav">
+            <a href="pilihan2.html"><button>Kembali</button></a>
+        </div>
+        </nav>
+        <div>
+    <center>
+        <table border="0">
+            <tr>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+                <th>Beli</th>
+
+            </tr>
+            <tr>
+                <td width="100px"><img src="img/alat1.png" width="100px"><p>Pulpen</p></td>
+                <td width="10px">Rp. 2500</td>
+                <td width="10px">             
+               <div class="counter">
+                    <button onclick="handleCounterMin()">-</button>
+                    <input type="text" id="counter" value="0">
+                    <button onclick="handleCounterPlus()">+</button>
+                </div></td>
+                <td width="10px" class="lat"><button>Beli</button></td>
+            </tr>
+            
+            <tr>
+                <td width="100px"><img src="img/alat2.png" width="100px"><p>Penggaris</p></td>
+                <td width="10px">Rp. 2500</td>
+                <td width="10px">                
+                <div class="counter">
+                    <button onclick="handleCounterMin()">-</button>
+                    <input type="text" id="counter" value="0">
+                    <button onclick="handleCounterPlus()">+</button>
+                </div></td>
+                <td width="10px" class="lat"><button>Beli</button></td>
+            </tr>
+
+            <tr>
+                <td width="100px"><img src="img/alat3.png" width="100px"><p>Penghapus</p></td>
+                <td width="10px">Rp. 1000</td>
+                <td width="10px">           
+                 <div class="counter">
+                    <button onclick="handleCounterMin()">-</button>
+                    <input type="text" id="counter" value="0">
+                    <button onclick="handleCounterPlus()">+</button>
+                </div></td>
+                <td width="10px" class="lat"><button>Beli</button></td>
+            </tr>
+
+        </table>
+    </center>
+<script src="js/index.js"></script>
+</body>
+</html>
+
